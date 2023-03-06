@@ -2,27 +2,55 @@ head {
     display: flex;
 }
 
-header {
-    display: inline;
-}
-.score-page {
-    display: none;
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #1D3557;
 }
 
-.score-page {
-    display: none;
-    visibility: hidden;
-    
+header {
+    display: inline;
+    display: flex;
+    background-color: #A8DADC;
+}
+
+h1 {
+    text-align: center;
+    background-color: #A8DADC;
+}
+
+p {
+    text-align: center;
+    margin-top: 10%;
+    font-size: large;
+    color: #F1FAEE;
 }
 
 h3 {
     display: inline;
 }
 
+button {
+    display: flex;
+}
 
 .timer {
     display: inline;
+    text-align: right;  
+}
 
-   
+.start-quiz {
+    background-color: #E63946	;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.start-quiz:hover{
+    background-color: white;
+   border: 2px solid #E63946; 
+}
+
+.hidden {
+    display: none;
 }
 

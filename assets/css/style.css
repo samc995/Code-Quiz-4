@@ -27,6 +27,7 @@ p {
 
 h3 {
     display: inline;
+    color:#F1FAEE;
 }
 
 button {
@@ -45,7 +46,7 @@ button {
     margin-top: 10%;
 }
 
-.start-quiz:hover{
+.list-group-item-action:hover{
     background-color: white;
    border: 2px solid #E63946; 
 }
@@ -54,3 +55,20 @@ button {
     display: none;
 }
 
+.score-page {
+    color: #F1FAEE;
+}
+
+.question-page {
+    color: #F1FAEE;
+}
+
+.answer-choices:hover{
+    /* background-color: white; */
+    border: 2px solid #E63946; 
+ }
+
+ #submit-name-button:hover {
+     background-color: #E63946;
+     border: 2px solid #F1FAEE; 
+ }

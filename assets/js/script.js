@@ -125,14 +125,14 @@ function checkAnswer() {
 }
 
 
-function submitButton()
+function submitButton() {}
 
 
 console.log("startButton", startButton)
 
 startButton.addEventListener("click", startQuiz);
 
-
+function highScores(){}
 
 // showQuestion(questions);
 
